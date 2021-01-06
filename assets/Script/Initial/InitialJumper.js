@@ -34,5 +34,29 @@ cc.Class({
 
     },
 
+    toBirth() {
+        cc.director.loadScene("Birth");
+    },
+
+    toStage_1() {
+        cc.director.loadScene("Stage_1");
+    },
+
+    toStage_2() {
+        cc.director.loadScene("Stage_2");
+    },
+
+    toStage_3() {
+        cc.director.loadScene("Stage_3");
+    },
+
+    toStage_4() {
+        cc.director.loadScene("Stage_4");
+    },
+
+    toStage_5() {
+        cc.director.loadScene("Stage_5");
+    },
+
     // update (dt) {},
 });
