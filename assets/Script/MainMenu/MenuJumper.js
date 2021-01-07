@@ -38,5 +38,13 @@ cc.Class({
     startGame() {
         cc.director.loadScene("Gender");
     },
+
+    toMenu() {
+        cc.director.loadScene("MainMenu");
+    },
+    toConfig() {
+        cc.director.loadScene("Config");
+    },
+
     // update (dt) {},
 });

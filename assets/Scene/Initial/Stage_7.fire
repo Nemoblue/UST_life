@@ -58,7 +58,7 @@
     "_groupIndex": 0,
     "groupIndex": 0,
     "autoReleaseAssets": false,
-    "_id": "fd8a3093-b0fb-4609-aaa6-35215c8b6727"
+    "_id": "f7629fbf-b00a-40c7-a5e0-379494e4160b"
   },
   {
     "__type__": "cc.Node",
@@ -148,7 +148,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "79Yaw7qX1GKoVTHzbocTbr"
+    "_id": "b4xZsOG+5KEZszGwpIuZ7O"
   },
   {
     "__type__": "cc.Node",
@@ -210,7 +210,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "e8ZxH3CN1KfbPcRvP7zMF2"
+    "_id": "2elfydZZRByIVFJSwtyyIX"
   },
   {
     "__type__": "cc.Camera",
@@ -246,7 +246,7 @@
     },
     "_renderStages": 1,
     "_alignWithScreen": true,
-    "_id": "81wgbAVzZCg4tjl7GOjQvE"
+    "_id": "b5yw+SlZdMq6MEbj3Y1+em"
   },
   {
     "__type__": "cc.Node",
@@ -308,7 +308,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "35a7RjP8FMx5skzxWZRY8s"
+    "_id": "aeSvQXn3VCDrcGZXWCUxAo"
   },
   {
     "__type__": "cc.Label",
@@ -325,8 +325,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Stage_5（背景图）",
-    "_N$string": "Stage_5（背景图）",
+    "_string": "Stage_7（背景图）",
+    "_N$string": "Stage_7（背景图）",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,
@@ -341,7 +341,7 @@
     "_N$fontFamily": "Arial",
     "_N$overflow": 0,
     "_N$cacheMode": 0,
-    "_id": "2d6AC+1b9L1amdk43tXtlu"
+    "_id": "1cqiB7g/hH/JYyptE+XufS"
   },
   {
     "__type__": "cc.Node",
@@ -368,8 +368,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 680,
-      "height": 145.2
+      "width": 582.23,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -380,8 +380,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -39.96,
-        106.184,
+        -90.177,
+        126.862,
         0,
         0,
         0,
@@ -403,7 +403,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "7cBUsUlcpOyKfsk3PKW2c3"
+    "_id": "75fo5Em8RPY7pV63XFDHG7"
   },
   {
     "__type__": "cc.Label",
@@ -420,10 +420,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "今天是高中开学的第一天，再过三年你终于可以进入梦寐以求的科大了！在此\n之前，你决定度过一个充实而愉快的高中生活。这时，你的后桌轻轻拍了拍你\n的背说：“同学，很高兴认识你！”你望向他/她，他笑起来的样子和你的偶像\n有几分相似！你想，在高中收获一段唯美的爱情也是很不错呢。\n转眼到了期中考，你浏览了试卷，无奈地摇了摇头，“这次的试题也毫无\n挑战呢，果然我只能到科大去磨练自己吧”！做完试题后，你悄悄撇了一眼后\n座的他，他/她看起来很为难，抓耳挠腮。你决定： ",
-    "_N$string": "今天是高中开学的第一天，再过三年你终于可以进入梦寐以求的科大了！在此\n之前，你决定度过一个充实而愉快的高中生活。这时，你的后桌轻轻拍了拍你\n的背说：“同学，很高兴认识你！”你望向他/她，他笑起来的样子和你的偶像\n有几分相似！你想，在高中收获一段唯美的爱情也是很不错呢。\n转眼到了期中考，你浏览了试卷，无奈地摇了摇头，“这次的试题也毫无\n挑战呢，果然我只能到科大去磨练自己吧”！做完试题后，你悄悄撇了一眼后\n座的他，他/她看起来很为难，抓耳挠腮。你决定： ",
-    "_fontSize": 20,
-    "_lineHeight": 20,
+    "_string": "接着他/她又问了你的出生月份： ",
+    "_N$string": "接着他/她又问了你的出生月份： ",
+    "_fontSize": 40,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -436,7 +436,7 @@
     "_N$fontFamily": "Arial",
     "_N$overflow": 0,
     "_N$cacheMode": 0,
-    "_id": "d4O6YfD3BGO7mpXrQC1Aq1"
+    "_id": "06ISU7HGlAmq4jytt5LO1g"
   },
   {
     "__type__": "cc.Node",
@@ -466,8 +466,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 451.11,
-      "height": 25.2
+      "width": 97.81,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -478,8 +478,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -158.048,
-        -17.738,
+        -326.422,
+        2.94,
         0,
         0,
         0,
@@ -501,7 +501,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "44QqdxBTlHQZxC4jX8mh7d"
+    "_id": "e5nhTFfYZFJ5bjdksEJG5t"
   },
   {
     "__type__": "cc.Label",
@@ -518,10 +518,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "看来他/她这次没来得及复习，悄悄传纸条给他/她吧",
-    "_N$string": "看来他/她这次没来得及复习，悄悄传纸条给他/她吧",
-    "_fontSize": 20,
-    "_lineHeight": 20,
+    "_string": "1-4月",
+    "_N$string": "1-4月",
+    "_fontSize": 40,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -534,7 +534,7 @@
     "_N$fontFamily": "Arial",
     "_N$overflow": 0,
     "_N$cacheMode": 0,
-    "_id": "cdf/IOaKVA7YoMryDo0YcY"
+    "_id": "5aQoQGP/tI25cCckU+ASce"
   },
   {
     "__type__": "cc.Button",
@@ -611,7 +611,7 @@
     "_N$target": {
       "__id__": 9
     },
-    "_id": "39AvzeZF1NIo6JHyisQ5U/"
+    "_id": "3cpv119yBD35vnCHyNZk/L"
   },
   {
     "__type__": "cc.ClickEvent",
@@ -620,7 +620,7 @@
     },
     "component": "",
     "_componentId": "e87fdjD+XxBBq5KBvZa/pzT",
-    "handler": "S5_option_1",
+    "handler": "S7_option_1",
     "customEventData": ""
   },
   {
@@ -630,7 +630,7 @@
     },
     "component": "",
     "_componentId": "c6093liKvZJtJM1/NXeXmcP",
-    "handler": "toStage_6",
+    "handler": "toStage_Final",
     "customEventData": ""
   },
   {
@@ -661,8 +661,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 771.11,
-      "height": 25.2
+      "width": 97.81,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -673,8 +673,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1.036,
-        -82.724,
+        -111.214,
+        2.94,
         0,
         0,
         0,
@@ -696,7 +696,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "caWNiwyFxA7KNjUAZdYK9X"
+    "_id": "54OJDYrJFLzZmMqLvVSsjg"
   },
   {
     "__type__": "cc.Label",
@@ -713,10 +713,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "他/她看起来因为我的美貌而心神不宁，没办法，我还是提前交卷好让他/她能专心思考吧",
-    "_N$string": "他/她看起来因为我的美貌而心神不宁，没办法，我还是提前交卷好让他/她能专心思考吧",
-    "_fontSize": 20,
-    "_lineHeight": 20,
+    "_string": "5-8月",
+    "_N$string": "5-8月",
+    "_fontSize": 40,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -729,7 +729,7 @@
     "_N$fontFamily": "Arial",
     "_N$overflow": 0,
     "_N$cacheMode": 0,
-    "_id": "4d/VKVIQ5AdKPDA23JfHtG"
+    "_id": "ffwdkJ/IZESryR6PBq/unj"
   },
   {
     "__type__": "cc.Button",
@@ -806,7 +806,7 @@
     "_N$target": {
       "__id__": 14
     },
-    "_id": "e80s3wOahLn56C31qV6ms1"
+    "_id": "4dxTnHU2pNbqBfQNfo8CVc"
   },
   {
     "__type__": "cc.ClickEvent",
@@ -815,7 +815,7 @@
     },
     "component": "",
     "_componentId": "e87fdjD+XxBBq5KBvZa/pzT",
-    "handler": "S5_option_2",
+    "handler": "S7_option_2",
     "customEventData": ""
   },
   {
@@ -825,7 +825,7 @@
     },
     "component": "",
     "_componentId": "c6093liKvZJtJM1/NXeXmcP",
-    "handler": "toStage_6",
+    "handler": "toStage_Final",
     "customEventData": ""
   },
   {
@@ -856,8 +856,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 676.67,
-      "height": 25.2
+      "width": 120.06,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -868,8 +868,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -48.75,
-        -159.447,
+        104.855,
+        0.065,
         0,
         0,
         0,
@@ -891,7 +891,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "9bdbgfwhBGSIf2NSWlHZeP"
+    "_id": "e8Ufbv725Cn4nvuQA+Y6yz"
   },
   {
     "__type__": "cc.Label",
@@ -908,10 +908,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "我的女神/男神看起来不太跟得上学习进度，放学后邀请他/她到我家里学习吧 ",
-    "_N$string": "我的女神/男神看起来不太跟得上学习进度，放学后邀请他/她到我家里学习吧 ",
-    "_fontSize": 20,
-    "_lineHeight": 20,
+    "_string": "9-12月",
+    "_N$string": "9-12月",
+    "_fontSize": 40,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -924,7 +924,7 @@
     "_N$fontFamily": "Arial",
     "_N$overflow": 0,
     "_N$cacheMode": 0,
-    "_id": "89AC+nlHxGqaiQpZfipuQo"
+    "_id": "0c/ClAl0ZG8YuVMTUFmVWk"
   },
   {
     "__type__": "cc.Button",
@@ -1001,7 +1001,7 @@
     "_N$target": {
       "__id__": 19
     },
-    "_id": "cdYCDKY9hIR5g8SswB3c0v"
+    "_id": "89fh5bcmREULqQgZFcw0Ec"
   },
   {
     "__type__": "cc.ClickEvent",
@@ -1010,7 +1010,7 @@
     },
     "component": "",
     "_componentId": "e87fdjD+XxBBq5KBvZa/pzT",
-    "handler": "S5_option_3",
+    "handler": "S7_option_3",
     "customEventData": ""
   },
   {
@@ -1020,7 +1020,7 @@
     },
     "component": "",
     "_componentId": "c6093liKvZJtJM1/NXeXmcP",
-    "handler": "toStage_6",
+    "handler": "toStage_Final",
     "customEventData": ""
   },
   {
@@ -1038,7 +1038,7 @@
     },
     "_fitWidth": false,
     "_fitHeight": true,
-    "_id": "9dVNWHWd5P85ALvOWjEGMe"
+    "_id": "f9pUwUg8JC+bv5byY6RpvW"
   },
   {
     "__type__": "cc.Widget",
@@ -1065,7 +1065,7 @@
     "_isAbsVerticalCenter": true,
     "_originalWidth": 0,
     "_originalHeight": 0,
-    "_id": "dffn3RK11LLIFbTAAfwkto"
+    "_id": "4bnCF5/+NJ9JMsMy2XRuN3"
   },
   {
     "__type__": "c6093liKvZJtJM1/NXeXmcP",
@@ -1075,7 +1075,7 @@
       "__id__": 2
     },
     "_enabled": true,
-    "_id": "51fSVEieVKdp6Z9T7p1weL"
+    "_id": "d8QqZn+kRCk4r+IccCJtGJ"
   },
   {
     "__type__": "e87fdjD+XxBBq5KBvZa/pzT",
@@ -1086,6 +1086,6 @@
     },
     "_enabled": true,
     "consistNode": null,
-    "_id": "b8EnafzjNCHLcq9VqwacbP"
+    "_id": "024JFTAylAyqqELu8PHG2G"
   }
 ]
