@@ -13,22 +13,30 @@ cc.Class({
             default: null,
             type: cc.Label
         },
+
+        consistNode: {
+            default: null,
+            type: cc.Label,
+        },
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     // 展示获得的属性值
     onLoad () {
-        let consistNode = cc.director.getScene().getChildByName('consistNode');
+        consistNode = cc.director.getScene().getChildByName('consistNode'); // 常驻节点接口
+        
         this.statisticResult = cc.find("statistic", this.node);
-        let str = "最终数值：\n";
+        this.statisticResult.getComponent(cc.Label).string = this.setString();
+    },
 
-        str += "勇气值：" + consistNode.getComponent('Statistic').getStatistic(0) + '\n';
+    // 需根据转换方程调整输出字符串
+    setString() {
+        let str = "勇气值：" + consistNode.getComponent('Statistic').getStatistic(0) + '\t';
         str += "健康值：" + consistNode.getComponent('Statistic').getStatistic(1) + '\n';
-        str += "正义值：" + consistNode.getComponent('Statistic').getStatistic(2) + '\n';
+        str += "正义值：" + consistNode.getComponent('Statistic').getStatistic(2) + '\t';
         str += "自信值：" + consistNode.getComponent('Statistic').getStatistic(3);
-
-        this.statisticResult.getComponent(cc.Label).string = str;
+        return str;
     },
 
     start () {

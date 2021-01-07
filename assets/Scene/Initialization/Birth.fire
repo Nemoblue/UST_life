@@ -17,7 +17,7 @@
         "__id__": 2
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [],
     "_prefab": null,
     "_opacity": 255,
@@ -58,7 +58,7 @@
     "_groupIndex": 0,
     "groupIndex": 0,
     "autoReleaseAssets": false,
-    "_id": "ee90f700-299c-4bce-95fd-7d091b49b37b"
+    "_id": "63e4b1c8-a813-45c5-a489-a1534b2b7767"
   },
   {
     "__type__": "cc.Node",
@@ -81,34 +81,22 @@
         "__id__": 9
       },
       {
-        "__id__": 11
-      },
-      {
         "__id__": 13
-      },
-      {
-        "__id__": 18
-      },
-      {
-        "__id__": 23
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 28
+        "__id__": 17
       },
       {
-        "__id__": 29
+        "__id__": 18
       },
       {
-        "__id__": 30
+        "__id__": 19
       },
       {
-        "__id__": 31
-      },
-      {
-        "__id__": 32
+        "__id__": 20
       }
     ],
     "_prefab": null,
@@ -282,7 +270,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 382.38,
+      "width": 506.64,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -294,8 +282,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -244.115,
-        244.585,
+        -196.524,
+        243.79,
         0,
         0,
         0,
@@ -317,7 +305,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "7cDO1En8VPTabaAgMZlvPc"
+    "_id": "8bpxtyGNpHRpa+e6bzAtqz"
   },
   {
     "__type__": "cc.Label",
@@ -334,8 +322,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "Stage_3.2（背景图）",
-    "_N$string": "Stage_3.2（背景图）",
+    "_string": "这里是出身选择界面(背景图)",
+    "_N$string": "这里是出身选择界面(背景图)",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,
@@ -350,11 +338,11 @@
     "_N$fontFamily": "Arial",
     "_N$overflow": 0,
     "_N$cacheMode": 0,
-    "_id": "30F2T1qutIVL0WBs1u8lNB"
+    "_id": "3enHM2sO9G5aJ0IxIWw/Py"
   },
   {
     "__type__": "cc.Node",
-    "_name": "description_1",
+    "_name": "birthResult",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -377,8 +365,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 713.34,
-      "height": 125.2
+      "width": 240,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -389,8 +377,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -37.006,
-        132.77,
+        -2.311,
+        79.65,
         0,
         0,
         0,
@@ -412,7 +400,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "fbOUY34q9GbpmkhtvEP0A9"
+    "_id": "b4fo3zouVDOYYZ9/XPBHz/"
   },
   {
     "__type__": "cc.Label",
@@ -429,10 +417,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "校霸A：你是隔壁学校的吧，长得不错，也就你能配得上我校霸的身份了，给你个\n机会，今天放学和我们去网吧玩吧，哈哈哈 \n 那位同学同意了，但无奈实力太弱，被校霸赶跑了。没办法，只能我出马了！ \n“你们在做什么！这么多人欺负一个，你们已经严重违反小学生行为准则了！” \n接着在你三个小时的谆谆教诲下，隔壁学校校霸终于不耐烦地离开了。\n",
-    "_N$string": "校霸A：你是隔壁学校的吧，长得不错，也就你能配得上我校霸的身份了，给你个\n机会，今天放学和我们去网吧玩吧，哈哈哈 \n 那位同学同意了，但无奈实力太弱，被校霸赶跑了。没办法，只能我出马了！ \n“你们在做什么！这么多人欺负一个，你们已经严重违反小学生行为准则了！” \n接着在你三个小时的谆谆教诲下，隔壁学校校霸终于不耐烦地离开了。\n",
-    "_fontSize": 20,
-    "_lineHeight": 20,
+    "_string": "随机数生成：",
+    "_N$string": "随机数生成：",
+    "_fontSize": 40,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -445,11 +433,11 @@
     "_N$fontFamily": "Arial",
     "_N$overflow": 0,
     "_N$cacheMode": 0,
-    "_id": "56u/RS6MhHEarTgSabN6RC"
+    "_id": "7eEcZu535O/IYZO8WsPIyf"
   },
   {
     "__type__": "cc.Node",
-    "_name": "mateGender",
+    "_name": "regenerate",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -459,6 +447,9 @@
     "_components": [
       {
         "__id__": 10
+      },
+      {
+        "__id__": 11
       }
     ],
     "_prefab": null,
@@ -472,8 +463,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 546.68,
-      "height": 85.2
+      "width": 160,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -484,8 +475,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -118.157,
-        44.309,
+        269.977,
+        -82.706,
         0,
         0,
         0,
@@ -507,7 +498,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "3cP3+YdnJLEpJUVoB9DeMR"
+    "_id": "eclCujpghGV4RfBDoQLdFt"
   },
   {
     "__type__": "cc.Label",
@@ -524,105 +515,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "此时你发现你解救的竟是隔壁班的校草。\n校草：谢谢你！你今天不来救我我都不知道怎么办了，            \n你是隔壁班的吧？以后有什么问题就来找我帮忙吧！ \n然后他留下了一个灿烂的微笑就害羞地跑开了。",
-    "_N$string": "此时你发现你解救的竟是隔壁班的校草。\n校草：谢谢你！你今天不来救我我都不知道怎么办了，            \n你是隔壁班的吧？以后有什么问题就来找我帮忙吧！ \n然后他留下了一个灿烂的微笑就害羞地跑开了。",
-    "_fontSize": 20,
-    "_lineHeight": 20,
-    "_enableWrapText": true,
-    "_N$file": null,
-    "_isSystemFontUsed": true,
-    "_spacingX": 0,
-    "_batchAsBitmap": false,
-    "_styleFlags": 0,
-    "_underlineHeight": 0,
-    "_N$horizontalAlign": 0,
-    "_N$verticalAlign": 1,
-    "_N$fontFamily": "Arial",
-    "_N$overflow": 0,
-    "_N$cacheMode": 0,
-    "_id": "60HQ6huv1Anqtqy+xacso7"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "description_2",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 2
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 12
-      }
-    ],
-    "_prefab": null,
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 636.67,
-      "height": 25.2
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        -76.802,
-        -20.678,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": false,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "3blmVVunBP6J2TUUPRqLQK"
-  },
-  {
-    "__type__": "cc.Label",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 11
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
-      }
-    ],
-    "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
-    "_string": "从此你无法自拔地爱上了她/他。放学后你会选择邀请他/她去做什么呢？ ",
-    "_N$string": "从此你无法自拔地爱上了她/他。放学后你会选择邀请他/她去做什么呢？ ",
-    "_fontSize": 20,
-    "_lineHeight": 20,
+    "_string": "重新生成",
+    "_N$string": "重新生成",
+    "_fontSize": 40,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -635,11 +531,95 @@
     "_N$fontFamily": "Arial",
     "_N$overflow": 0,
     "_N$cacheMode": 0,
-    "_id": "8b2oaOluVNa5gJ5GLibJ2Z"
+    "_id": "fd4C4UssFFIr2lp1ofgLNs"
+  },
+  {
+    "__type__": "cc.Button",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 9
+    },
+    "_enabled": true,
+    "_normalMaterial": null,
+    "_grayMaterial": null,
+    "duration": 0.1,
+    "zoomScale": 1.2,
+    "clickEvents": [
+      {
+        "__id__": 12
+      }
+    ],
+    "_N$interactable": true,
+    "_N$enableAutoGrayEffect": false,
+    "_N$transition": 1,
+    "transition": 1,
+    "_N$normalColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "_N$hoverColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "hoverColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "_N$disabledColor": {
+      "__type__": "cc.Color",
+      "r": 124,
+      "g": 124,
+      "b": 124,
+      "a": 255
+    },
+    "_N$normalSprite": null,
+    "_N$pressedSprite": null,
+    "pressedSprite": null,
+    "_N$hoverSprite": null,
+    "hoverSprite": null,
+    "_N$disabledSprite": null,
+    "_N$target": {
+      "__id__": 9
+    },
+    "_id": "9ciGv7ZxJFtJG7sNNPAdam"
+  },
+  {
+    "__type__": "cc.ClickEvent",
+    "target": {
+      "__id__": 2
+    },
+    "component": "",
+    "_componentId": "d24fb7U/nRKAINZlPviPYt6",
+    "handler": "regenerate",
+    "customEventData": ""
   },
   {
     "__type__": "cc.Node",
-    "_name": "jumper_1",
+    "_name": "jumper",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -665,8 +645,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 585.56,
-      "height": 25.2
+      "width": 304.53,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -677,8 +657,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -98.968,
-        -70.908,
+        -279.159,
+        -147.711,
         0,
         0,
         0,
@@ -700,7 +680,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "dfs1quDgpB3I4S3I8v9vZv"
+    "_id": "4fQui3c/FFGZnIbg10zxoQ"
   },
   {
     "__type__": "cc.Label",
@@ -717,10 +697,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "向他/她介绍你最近对量子力学的学习心得，尽情展现你的博学多才",
-    "_N$string": "向他/她介绍你最近对量子力学的学习心得，尽情展现你的博学多才",
-    "_fontSize": 20,
-    "_lineHeight": 20,
+    "_string": "跳转至下一Stage",
+    "_N$string": "跳转至下一Stage",
+    "_fontSize": 40,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -728,12 +708,12 @@
     "_batchAsBitmap": false,
     "_styleFlags": 0,
     "_underlineHeight": 0,
-    "_N$horizontalAlign": 0,
+    "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
     "_N$overflow": 0,
     "_N$cacheMode": 0,
-    "_id": "1et+5lLvVBcrA5uxu9pQEX"
+    "_id": "31ib6EM0NF1K4dvoO5c9fg"
   },
   {
     "__type__": "cc.Button",
@@ -750,9 +730,6 @@
     "clickEvents": [
       {
         "__id__": 16
-      },
-      {
-        "__id__": 17
       }
     ],
     "_N$interactable": true,
@@ -810,17 +787,7 @@
     "_N$target": {
       "__id__": 13
     },
-    "_id": "1bQ8jRO/pNoruGaDqqq3ok"
-  },
-  {
-    "__type__": "cc.ClickEvent",
-    "target": {
-      "__id__": 2
-    },
-    "component": "",
-    "_componentId": "e87fdjD+XxBBq5KBvZa/pzT",
-    "handler": "S3_option_1",
-    "customEventData": ""
+    "_id": "36PWFRpPlAf6wAZOz/T+md"
   },
   {
     "__type__": "cc.ClickEvent",
@@ -829,397 +796,7 @@
     },
     "component": "",
     "_componentId": "c6093liKvZJtJM1/NXeXmcP",
-    "handler": "toStage_4",
-    "customEventData": ""
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "jumper_2",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 2
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 19
-      },
-      {
-        "__id__": 20
-      }
-    ],
-    "_prefab": null,
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 616.67,
-      "height": 25.2
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        -84.628,
-        -127.033,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": false,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "9dORXxSKVFvbX1HXZ+mNUW"
-  },
-  {
-    "__type__": "cc.Label",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 18
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
-      }
-    ],
-    "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
-    "_string": "请他/她吃一顿豪华KFC儿童套餐，得到了他/她的胃才能得到他/她的人",
-    "_N$string": "请他/她吃一顿豪华KFC儿童套餐，得到了他/她的胃才能得到他/她的人",
-    "_fontSize": 20,
-    "_lineHeight": 20,
-    "_enableWrapText": true,
-    "_N$file": null,
-    "_isSystemFontUsed": true,
-    "_spacingX": 0,
-    "_batchAsBitmap": false,
-    "_styleFlags": 0,
-    "_underlineHeight": 0,
-    "_N$horizontalAlign": 1,
-    "_N$verticalAlign": 1,
-    "_N$fontFamily": "Arial",
-    "_N$overflow": 0,
-    "_N$cacheMode": 0,
-    "_id": "0aBnVHr3JHioFgjbq3TziC"
-  },
-  {
-    "__type__": "cc.Button",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 18
-    },
-    "_enabled": true,
-    "_normalMaterial": null,
-    "_grayMaterial": null,
-    "duration": 0.1,
-    "zoomScale": 1.2,
-    "clickEvents": [
-      {
-        "__id__": 21
-      },
-      {
-        "__id__": 22
-      }
-    ],
-    "_N$interactable": true,
-    "_N$enableAutoGrayEffect": false,
-    "_N$transition": 1,
-    "transition": 1,
-    "_N$normalColor": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_N$pressedColor": {
-      "__type__": "cc.Color",
-      "r": 211,
-      "g": 211,
-      "b": 211,
-      "a": 255
-    },
-    "pressedColor": {
-      "__type__": "cc.Color",
-      "r": 211,
-      "g": 211,
-      "b": 211,
-      "a": 255
-    },
-    "_N$hoverColor": {
-      "__type__": "cc.Color",
-      "r": 211,
-      "g": 211,
-      "b": 211,
-      "a": 255
-    },
-    "hoverColor": {
-      "__type__": "cc.Color",
-      "r": 211,
-      "g": 211,
-      "b": 211,
-      "a": 255
-    },
-    "_N$disabledColor": {
-      "__type__": "cc.Color",
-      "r": 124,
-      "g": 124,
-      "b": 124,
-      "a": 255
-    },
-    "_N$normalSprite": null,
-    "_N$pressedSprite": null,
-    "pressedSprite": null,
-    "_N$hoverSprite": null,
-    "hoverSprite": null,
-    "_N$disabledSprite": null,
-    "_N$target": {
-      "__id__": 18
-    },
-    "_id": "ffIpd5FBNCyo3B2ngJdz+Y"
-  },
-  {
-    "__type__": "cc.ClickEvent",
-    "target": {
-      "__id__": 2
-    },
-    "component": "",
-    "_componentId": "e87fdjD+XxBBq5KBvZa/pzT",
-    "handler": "S3_option_2",
-    "customEventData": ""
-  },
-  {
-    "__type__": "cc.ClickEvent",
-    "target": {
-      "__id__": 2
-    },
-    "component": "",
-    "_componentId": "c6093liKvZJtJM1/NXeXmcP",
-    "handler": "toStage_4",
-    "customEventData": ""
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "jumper_3",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 2
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 24
-      },
-      {
-        "__id__": 25
-      }
-    ],
-    "_prefab": null,
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 305.56,
-      "height": 25.2
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        -240.757,
-        -188.987,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": false,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "5adC46X1xAManJAgvW4mWj"
-  },
-  {
-    "__type__": "cc.Label",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 23
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
-      }
-    ],
-    "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
-    "_string": "为他/她策划一场浪漫的游乐场约会",
-    "_N$string": "为他/她策划一场浪漫的游乐场约会",
-    "_fontSize": 20,
-    "_lineHeight": 20,
-    "_enableWrapText": true,
-    "_N$file": null,
-    "_isSystemFontUsed": true,
-    "_spacingX": 0,
-    "_batchAsBitmap": false,
-    "_styleFlags": 0,
-    "_underlineHeight": 0,
-    "_N$horizontalAlign": 1,
-    "_N$verticalAlign": 1,
-    "_N$fontFamily": "Arial",
-    "_N$overflow": 0,
-    "_N$cacheMode": 0,
-    "_id": "cf5s8MMWxNTIR8myVJd0xc"
-  },
-  {
-    "__type__": "cc.Button",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 23
-    },
-    "_enabled": true,
-    "_normalMaterial": null,
-    "_grayMaterial": null,
-    "duration": 0.1,
-    "zoomScale": 1.2,
-    "clickEvents": [
-      {
-        "__id__": 26
-      },
-      {
-        "__id__": 27
-      }
-    ],
-    "_N$interactable": true,
-    "_N$enableAutoGrayEffect": false,
-    "_N$transition": 1,
-    "transition": 1,
-    "_N$normalColor": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_N$pressedColor": {
-      "__type__": "cc.Color",
-      "r": 211,
-      "g": 211,
-      "b": 211,
-      "a": 255
-    },
-    "pressedColor": {
-      "__type__": "cc.Color",
-      "r": 211,
-      "g": 211,
-      "b": 211,
-      "a": 255
-    },
-    "_N$hoverColor": {
-      "__type__": "cc.Color",
-      "r": 211,
-      "g": 211,
-      "b": 211,
-      "a": 255
-    },
-    "hoverColor": {
-      "__type__": "cc.Color",
-      "r": 211,
-      "g": 211,
-      "b": 211,
-      "a": 255
-    },
-    "_N$disabledColor": {
-      "__type__": "cc.Color",
-      "r": 124,
-      "g": 124,
-      "b": 124,
-      "a": 255
-    },
-    "_N$normalSprite": null,
-    "_N$pressedSprite": null,
-    "pressedSprite": null,
-    "_N$hoverSprite": null,
-    "hoverSprite": null,
-    "_N$disabledSprite": null,
-    "_N$target": {
-      "__id__": 23
-    },
-    "_id": "1901abns1MVoDQ3BvTtwsf"
-  },
-  {
-    "__type__": "cc.ClickEvent",
-    "target": {
-      "__id__": 2
-    },
-    "component": "",
-    "_componentId": "e87fdjD+XxBBq5KBvZa/pzT",
-    "handler": "S3_option_3",
-    "customEventData": ""
-  },
-  {
-    "__type__": "cc.ClickEvent",
-    "target": {
-      "__id__": 2
-    },
-    "component": "",
-    "_componentId": "c6093liKvZJtJM1/NXeXmcP",
-    "handler": "toStage_4",
+    "handler": "toStage_1",
     "customEventData": ""
   },
   {
@@ -1267,6 +844,17 @@
     "_id": "29zXboiXFBKoIV4PQ2liTe"
   },
   {
+    "__type__": "d24fb7U/nRKAINZlPviPYt6",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "birthResult": null,
+    "_id": "aecv/SpIpP54nfZejcRJhe"
+  },
+  {
     "__type__": "c6093liKvZJtJM1/NXeXmcP",
     "_name": "",
     "_objFlags": 0,
@@ -1274,29 +862,6 @@
       "__id__": 2
     },
     "_enabled": true,
-    "_id": "88hLr4QKVBVq8Vy/xPOGZq"
-  },
-  {
-    "__type__": "e87fdjD+XxBBq5KBvZa/pzT",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 2
-    },
-    "_enabled": true,
-    "consistNode": null,
-    "_id": "ebYZx3tYJJCIH38wqjC5Ul"
-  },
-  {
-    "__type__": "b1e55eSfb9Ce4Ntqf+KnRT0",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 2
-    },
-    "_enabled": true,
-    "consistNode": null,
-    "mateGender": null,
-    "_id": "9fsHCW8m9NW55U4cq8bASO"
+    "_id": "411eQTQARLyIjWiqsFovE+"
   }
 ]

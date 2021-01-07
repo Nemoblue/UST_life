@@ -466,7 +466,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 491.11,
+      "width": 400,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -478,7 +478,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -134.416,
+        -182.055,
         2.94,
         0,
         0,
@@ -518,8 +518,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "约校花/校草到海边沙滩玩耍",
-    "_N$string": "约校花/校草到海边沙滩玩耍",
+    "_string": "约同学到海边沙滩玩耍",
+    "_N$string": "约同学到海边沙滩玩耍",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,
