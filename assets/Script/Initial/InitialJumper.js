@@ -46,8 +46,12 @@ cc.Class({
         cc.director.loadScene("Stage_2");
     },
 
-    toStage_3() {
-        cc.director.loadScene("Stage_3");
+    toStage_3_1() {
+        cc.director.loadScene("Stage_3.1");
+    },
+
+    toStage_3_2() {
+        cc.director.loadScene("Stage_3.2");
     },
 
     toStage_4() {
@@ -58,5 +62,20 @@ cc.Class({
         cc.director.loadScene("Stage_5");
     },
 
+    toStage_6() {
+        cc.director.loadScene("Stage_6");
+    },
+
+    toStage_7() {
+        cc.director.loadScene("Stage_7");
+    },
+
+    toStage_Final() {
+        cc.director.loadScene("Stage_Final");
+    },
+
+    toCourse() {
+        cc.director.loadScene("Course");
+    }
     // update (dt) {},
 });

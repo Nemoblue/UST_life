@@ -22,6 +22,18 @@ cc.Class({
         confidence: 0,
     },
 
+    // 获取属性 0:bravery 1:health 2:justice 3:confidence
+    getStatistic(num) {
+        switch(num) {
+            case 0: return this.bravery; break;
+            case 1: return this.health; break;
+            case 2: return this.justice; break;
+            case 3: return this.confidence; break;
+            case 9: return this.gender; break;
+            default: return 0;
+        }
+    },
+
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
@@ -39,6 +51,28 @@ cc.Class({
 
     setGenderFemale() {
         this.gender = 0;
+    },
+
+    // 对属性进行加减
+    setBravery(num) {
+        this.bravery += num;
+    },
+
+    setHealth(num) {
+        this.health += num;
+    },
+
+    setJustice(num) {
+        this.justice += num;
+    },
+
+    setConfidence(num) {
+        this.confidence += num;
+    },
+
+    // 将属性转换成后天属性
+    setPostStatistic(){
+
     },
 
     // update (dt) {},
