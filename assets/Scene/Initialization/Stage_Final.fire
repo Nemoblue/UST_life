@@ -15,6 +15,9 @@
     "_children": [
       {
         "__id__": 2
+      },
+      {
+        "__id__": 17
       }
     ],
     "_active": true,
@@ -374,8 +377,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -256.592,
-        46.592,
+        -125.586,
+        -179.692,
         0,
         0,
         0,
@@ -460,7 +463,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 160,
+      "width": 200,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -472,8 +475,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -279.159,
-        -147.711,
+        340.144,
+        -210.236,
         0,
         0,
         0,
@@ -512,8 +515,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "开始选课",
-    "_N$string": "开始选课",
+    "_string": "进入UST！",
+    "_N$string": "进入UST！",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,
@@ -679,6 +682,102 @@
     "statisticResult": {
       "__id__": 8
     },
+    "consistNode": null,
     "_id": "86fOOebNdL240o4N+JUAyR"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "label",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 18
+      }
+    ],
+    "_prefab": null,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 693.32,
+      "height": 290.4
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        459.013,
+        347.016,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": "896yU8ynxNwoXp0gFDWkUh"
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 17
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "高中三年很快就过去了，你如愿收到了\n科大得录取通知书！可是你的女朋友去\n了别的学校，你们便从此分道扬镳\n了。“又是一个全新的开始，我要从今天\n开始规划我的大学生活了！从此，你展\n开了科大的旅程。通过你过去的经历，\n你获得了如下的初始属性值： ",
+    "_N$string": "高中三年很快就过去了，你如愿收到了\n科大得录取通知书！可是你的女朋友去\n了别的学校，你们便从此分道扬镳\n了。“又是一个全新的开始，我要从今天\n开始规划我的大学生活了！从此，你展\n开了科大的旅程。通过你过去的经历，\n你获得了如下的初始属性值： ",
+    "_fontSize": 40,
+    "_lineHeight": 40,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 0,
+    "_N$cacheMode": 0,
+    "_id": "d5HHNvKSVPsZDj4OL/nx9a"
   }
 ]

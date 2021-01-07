@@ -18,7 +18,7 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
-        consistNode = cc.director.getScene().getChildByName('consistNode');
+        consistNode = cc.director.getScene().getChildByName('consistNode'); // 常驻节点接口
     },
 
     start () {

@@ -22,7 +22,7 @@ cc.Class({
         confidence: 0,
     },
 
-    // 获取属性 0:bravery 1:health 2:justice 3:confidence
+    // 获取属性 0:bravery 1:health 2:justice 3:confidence 9:gender
     getStatistic(num) {
         switch(num) {
             case 0: return this.bravery; break;
