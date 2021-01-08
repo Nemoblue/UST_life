@@ -812,8 +812,8 @@
       "width": 960,
       "height": 640
     },
-    "_fitWidth": false,
-    "_fitHeight": true,
+    "_fitWidth": true,
+    "_fitHeight": false,
     "_id": "59Cd0ovbdF4byw5sbjJDx7"
   },
   {
@@ -852,6 +852,7 @@
     },
     "_enabled": true,
     "birthResult": null,
+    "consistNode": null,
     "_id": "aecv/SpIpP54nfZejcRJhe"
   },
   {
