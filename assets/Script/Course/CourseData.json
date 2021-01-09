@@ -1,0 +1,110 @@
+{
+    "Major": {
+        "Computer": [
+            {
+                "id": "comp-1",
+                "name": "计算机使用入门",
+                "description": "null",
+                "difficulty": "0",
+                "credit": "1",
+                "grading": "1",
+                "requiredCourse": "null",
+                "requiredYear": "null",
+                "properties": {
+                    "5": "1",
+                    "6": "1",
+                    "7": "1",
+                    "8": "1"
+                }
+            },
+            {
+                "id": "comp-2",
+                "name": "计算机使用入门",
+                "description": "null",
+                "difficulty": "0",
+                "credit": "1",
+                "grading": "1",
+                "requiredCourse": "null",
+                "requiredYear": "null",
+                "properties": {
+                    "5": "1",
+                    "6": "1",
+                    "7": "1",
+                    "8": "1"
+                }
+            }
+        ],
+
+        "Math": [
+            {
+                "id": "math-0",
+                "name": "数学基础",
+                "description": "null",
+                "difficulty": "0",
+                "credit": "1",
+                "grading": "1",
+                "requiredCourse": "null",
+                "requiredYear": "null",
+                "properties": {
+                    "5": "1",
+                    "6": "1",
+                    "7": "1",
+                    "8": "1"
+                }
+            },
+
+            {
+                "id": "math-1",
+                "name": "高等数学",
+                "description": "null",
+                "difficulty": "0",
+                "credit": "1",
+                "grading": "1",
+                "requiredCourse": "null",
+                "requiredYear": "null",
+                "properties": {
+                    "5": "1",
+                    "6": "1",
+                    "7": "1",
+                    "8": "1"
+                }
+            }
+        ],
+
+        "ECON": [
+            {
+                "id": "econ-0",
+                "name": "微观经济",
+                "description": "null",
+                "difficulty": "0",
+                "credit": "1",
+                "grading": "1",
+                "requiredCourse": "null",
+                "requiredYear": "null",
+                "properties": {
+                    "5": "1",
+                    "6": "1",
+                    "7": "1",
+                    "8": "1"
+                }
+            },
+
+            {
+                "id": "econ-1",
+                "name": "宏观经济",
+                "description": "null",
+                "difficulty": "0",
+                "credit": "1",
+                "grading": "1",
+                "requiredCourse": "null",
+                "requiredYear": "null",
+                "properties": {
+                    "5": "1",
+                    "6": "1",
+                    "7": "1",
+                    "8": "1"
+                }
+            }
+        ]
+    }
+}
