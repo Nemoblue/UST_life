@@ -23,6 +23,9 @@ cc.Class({
         justice: 0,
         confidence: 0,
 
+        //背景: N, R, SR, SSR
+        background: "",
+
         // 回合数
         round: 0,
         // 上过的课及其成绩，以courseTaken作为obj保存，每门课新增属性，增加分数（课程id：letter)
@@ -35,7 +38,18 @@ cc.Class({
         // 绩点
         cga: 0,
         // 总学分
-        credit: 0
+        credit: 0,
+
+        //游戏内属性：智力(y1)，颜值(y2) ，体魄(y3) ，活力 (y4) ，情商 （y5) ，魅力(y6) ，运气(y7)， 行动力(b)
+        //每回合更新
+        intelligence: 0,
+        beauty: 0,
+        power: 0,
+        activity: 0,
+        EQ: 0,
+        charm: 0,
+        luck: 0,
+        mobility: 0
         
         
     },
@@ -109,6 +123,10 @@ cc.Class({
         this.confidence += num;
     },
 
+    setBackground(bg) {
+        this.background = bg;
+    },
+
     //集成方法，根据属性名增减数值
     setPropertiesByName(name, num) {
 
@@ -127,7 +145,35 @@ cc.Class({
 
     // 将属性转换成后天属性
     setPostStatistic(){
+        x1 = this.bravery,
+        x2 = this.health,
+        x3 = this.justice,
+        x4 = this.confidence
 
+        //parameter should be tunned later
+        y1 = 1* x1 + 4* x2 + 2* x4 + 4*(bg=='SR'), 
+
+        y2 = 2* x2 + 1* x3 + 4* x4, 
+
+        y3 = 1* x1 + 2* x2 + 4*(bg=='S'), 
+
+        y4 = 1* x1 + 8* x2 + 2* x3 + 4* x4 + 4*(bg=='N'), 
+
+        y5 = 4* x1 + 1* x3 + 2* x4 + 4*(bg=='SSR'), 
+
+        y6 = 4* x1 + 1* x2 + 2* x3 + 8* x4 + 4*(bg=='N' || bg == 'S'), 
+
+        y7 = 1* x1 + 4* x2 + 8* x3 + 2* x4 + 4*(bg=='SR' || bg == 'SSR'), 
+
+        this.mobility = 6* y1 + 7* y2 + 1* y3 + 5* y4 + 4* y5 + 3* y6 + 1*y7,
+
+        this.intelligence = y1,
+        this.beauty = y2,
+        this.power = y3,
+        this.activity = y4,
+        this.EQ = y5,
+        this.charm = y6,
+        this.luck = y7
     },
 
     // update (dt) {},
